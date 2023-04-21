@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <section id="vista1">
+      <div id="bienvenida">
+        <h1 id="titulo">FIRMA DE ABOGADOS ESPECIALIZADOS EN COLOMBIA </h1>
+        <p id="parrafo"> Realice su consulta legal en cualquiera de nuestras áreas de derecho civil, familia, comercial, penal, laboral o cualquier otro detalle de índole legal que desee aclarar con ayuda de nuestros abogados especialistas.</p>
+        <p id="parrafo1"> Haga clic en el botón de pago en linea del servicio que desea solicitar y siga paso a paso todo el proceso:</p>
+        <button id="continuar"></button>
+      </div>
+    </section>
+  <section id="vista2">
+    <div id="contenedor">
+        <img id="card-image" src="tarjeta.jpg" >
+        <label id="nombre"> Ingresa tu nombre</label>
+        <input id="nombre-en-tarjeta" type="text">
+        <input type="text" id="nom">
+        <label id="numero"> Numero de tarjeta</label>
+        <input id="numero-en-tarjeta" type="text">
+        <input type="text" id="tarjeta" placeholder="ej. 123456789098754 (sin espacios)" minlength="1" maxlength="16">
+        <label id="fecha-label"> Fecha de vencimiento</label>
+        
+        <button id= "botonEnviar"> VALIDAR TARJETA </button>
+        <p id="impresion" ></p>  
+        
+
+        <select id="mes">
+          <option value="">mes</option>
+          <option value="01">Enero</option>
+          <option value="02">Febrero</option>
+          <option value="03">Marzo</option>
+          <option value="04">Abril</option>
+          <option value="05">Mayo</option>
+          <option value="06">Junio</option>
+          <option value="07">Julio</option>
+          <option value="08">Agosto</option>
+          <option value="09">Septiembre</option>
+          <option value="10">Octubre</option>
+          <option value="11">Noviembre</option>
+          <option value="12">Diciembre</option>
+        </select>
+    
+        <select id="anio">
+          <option value="">año</option>
+          <option value="21">2021</option>
+          <option value="22">2022</option>
+          <option value="23">2023</option>
+          <option value="24">2024</option>
+          <option value="25">2025</option>
+          <option value="26">2026</option>
+          <option value="27">2027</option>
+          <option value="28">2028</option>
+          <option value="29">2029</option>
+          <option value="30">2030</option>
+        </select>
+        
+        
+        <input type="text" id="fecha-en-tarjeta" readonly>
+
+    </div>
+  </section>
+  <header></header>
+      <main></main>
+      <footer></footer>
+      <script src="index.js" type="module"></script>
+  </body>
+</html>
